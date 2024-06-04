@@ -1,0 +1,139 @@
+.principal {
+    margin-top: .5rem;
+    margin-left: 1rem;
+    width: calc(100% - 23rem);
+    height: 40rem;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.contenedor_proveedor {
+    background-color: #fffdf8;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 95%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #a3a0b0;
+    border-bottom: 1px solid #a3a0b0;
+}
+
+.header p {
+    margin: 0;
+}
+
+.contenedor_foto {
+    width: 100%;
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_foto img {
+    width: auto;
+    height: 8rem;
+    max-width: 50%;
+    border-radius: 5px;
+    background-color: none;
+}
+
+.contenedor_foto label {
+    width: 20%;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    color: #fffdf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0ac9e;
+    transition: background-color 0.3s ease-in;
+}
+
+.contenedor_foto label:hover {
+    background-color: #9b8950;
+    cursor: pointer;
+}
+
+.contenedor_inputs {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor_inputs div {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1%;
+}
+
+.contenedor_inputs div input {
+    margin: 2% 0;
+    height: 1.8rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #a3a0b0;
+}
+
+.contenedor_boton {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_boton a,
+.contenedor_boton button {
+    width: 17%;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin: 0 2%;
+    color: #fffdf8;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.contenedor_boton p {
+    margin: 0;
+}
+
+.btn_guardar {
+    background-color: #b0ac9e;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn_guardar:hover {
+    background-color: #9b8950;
+}
+
+.btn_cancelar {
+    background-color: #c98585;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn_cancelar:hover {
+    background-color: #bf1f1f;
+}

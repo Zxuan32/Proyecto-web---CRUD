@@ -1,0 +1,175 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Cambiar el color del scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+body {
+    background-color: #ebf1f4;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+aside {
+    height: 89vh;
+    width: 20rem;
+    padding-top: .5rem;
+    float: left;
+}
+
+.datos_usuario {
+    width: 19rem;
+    padding-top: 1rem;
+    height: 10rem;
+    text-align: center;
+    background-color: #fffdf8;
+    margin: 0 .5rem .5rem .5rem;
+}
+
+.datos_usuario img {
+    width: 5rem;
+    height: 5rem;
+    background-color: #242426;
+    border-radius: 100%;
+}
+
+.contenedor_nombre_usuario {
+    float: right;
+    width: 12rem;
+    height: 5rem;
+}
+
+.datos_usuario button {
+    width: 8.2rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: .5rem;
+}
+
+.datos_usuario .ver_informacion {
+    background-color: #b0ac9e;
+    color: #ebf1f4;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.datos_usuario .ver_informacion:hover {
+    background-color: #9b8950;
+    color: #fff;
+}
+
+.datos_usuario .cerrar_sesion {
+    background-color: #c98585;
+    color: #ebf1f4;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.datos_usuario .cerrar_sesion:hover {
+    background-color: #bf1f1f;
+    color: #fff;
+}
+
+.datos_usuario p {
+    padding: 0;
+    height: 1rem;
+    font-size: .8rem;
+}
+
+.nombre {
+    margin: 1.5rem 0 0 0;
+    width: 100%;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.usuario {
+    margin: 0;
+    float: left;
+    color: #a3a0b0;
+    text-align: left;
+}
+
+.tipo_usuario {
+    margin: 0;
+    float: left;
+    width: 50%;
+    color: #a3a0b0;
+    text-align: center;
+}
+
+.contenedor_fecha {
+    height: 7rem;
+    width: 19rem;
+    background-color: #fffdf8;
+    margin: .5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Centrado vertical */
+    align-items: center;
+}
+
+.contenedor_fecha .contenedor_imagen {
+    width: 5rem;
+    height: 5rem;
+    margin-left: .5rem;
+    background-color: #f1f1f3;
+    border-radius: 100%;
+    background-image: url('../../assets/img/calendario.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenedor_fecha div {
+    width: 12rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centrado vertical */
+    align-items: center;
+}
+
+.contenedor_fecha p {
+    padding: 0;
+    margin: 0;
+}
+
+.zona {
+    font-size: .8rem;
+    margin-top: .2rem;
+    color: #a3a0b0;
+}
+
+.fecha {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.contenedor_saludo {
+    background-color: #fffdf8;
+    width: 19rem;
+    height: 22rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centrado vertical */
+    align-items: center;
+}
+
+.contenedor_saludo p {
+    margin: 0;
+}
+
+.contenedor_saludo img {
+    width: 15rem;
+    height: 15rem;
+}

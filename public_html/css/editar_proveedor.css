@@ -1,0 +1,249 @@
+.principal {
+    margin-top: .5rem;
+    margin-left: 1rem;
+    width: calc(100% - 23rem);
+    height: 40rem;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.contenedor_proveedor {
+    background-color: #fffdf8;
+    height: 100%;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 95%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #a3a0b0;
+    border-bottom: 1px solid #a3a0b0;
+}
+
+.header p {
+    margin: 0;
+}
+
+.contenedor_foto {
+    width: 100%;
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_foto img {
+    width: auto;
+    height: 8rem;
+    max-width: 50%;
+    border-radius: 5px;
+    background-color: none;
+}
+
+.contenedor_foto label {
+    width: 20%;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    color: #fffdf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b0ac9e;
+    transition: background-color 0.3s ease-in;
+}
+
+.contenedor_foto label:hover {
+    background-color: #9b8950;
+    cursor: pointer;
+}
+
+.contenedor_inputs {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor_inputs div {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1%;
+}
+
+.contenedor_inputs div input {
+    margin: 2% 0;
+    height: 1.8rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #a3a0b0;
+}
+
+.contenedor_boton {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_boton a,
+.contenedor_boton button {
+    width: 17%;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin: 0 2%;
+    color: #fffdf8;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.contenedor_boton p {
+    margin: 0;
+}
+
+.btn_guardar {
+    background-color: #b0ac9e;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn_guardar:hover {
+    background-color: #9b8950;
+}
+
+.btn_cancelar {
+    background-color: #c98585;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn_cancelar:hover {
+    background-color: #bf1f1f;
+}
+
+.contenedor_productos {
+    height: 100%;
+    width: 32%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fffdf8;
+}
+
+.lista_productos {
+    height: 76%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+
+.contenedor_boton_producto {
+    height: 12%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #a3a0b0;
+}
+
+.contenedor_boton_producto button {
+    height: 2.5rem;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    color: #fffdf8;
+}
+
+.juego {
+    width: 95%;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #a3a0b0;
+}
+
+.juego img {
+    height: 95%;
+    width: 30%;
+    background-color: none;
+}
+
+.juego .datos {
+    width: 68%;
+    height: 95%;
+    margin: 0 0 0 2%;
+}
+
+.juego .datos p {
+    height: 25%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.juego .datos p strong {
+    margin-right: .5rem;
+    font-weight: bolder;
+    text-overflow: ellipsis;
+}
+
+.precio_original {
+    text-decoration: line-through;
+    color: #a3a0b0;
+    margin-right: .3rem;
+}
+
+.descuento {
+    font-size: .8rem;
+    margin-left: .3rem;
+    color: #6cb52d;
+}
+
+.no_productos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.no_productos img {
+    width: 16rem;
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+
+.no_productos p {
+    margin: 0;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
